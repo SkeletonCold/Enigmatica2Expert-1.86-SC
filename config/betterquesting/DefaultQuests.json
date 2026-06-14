@@ -32936,13 +32936,14 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "advancedrocketry:bucketrocketfuel",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "forge:bucketfilled",
             "Count:3": 1,
             "tag:10": {
-              "Fluid:10": {
-                "FluidName:8": "rocketfuel",
-                "Amount:3": 1000
-              }
+               "FluidName:8": "rocketfuel",
+              "Amount:3": 1000
             },
             "Damage:2": 0,
             "OreDict:8": ""
@@ -33102,7 +33103,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "卫星建造机",
-          "desc:8": "用于收集太空中的数据。\n\n详细内容去看 http://65.78.115.159:8000/AdvancedRocketry/items/satellite.php"
+          "desc:8": "用于收集太空中的数据。\n\n详细内容去看 http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/Satellites.html"
         }
       },
       "tasks:9": {
@@ -33405,7 +33406,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "天体数据处理器",
-          "desc:8": "用于处理卫星发送来的数据。\n\n此整合包中的其他星球星是有丰富的稀有矿物。\n\n详细内容去看 http://65.78.115.159:8000/AdvancedRocketry/guides/Missions.php"
+          "desc:8": "用于处理卫星发送来的数据。\n\n此整合包中的其他星球星是有丰富的稀有矿物。\n\n详细内容去看 http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/AsteroidMissions.html"
         }
       },
       "tasks:9": {
