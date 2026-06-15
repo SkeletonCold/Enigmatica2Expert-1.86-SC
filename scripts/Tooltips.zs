@@ -584,3 +584,26 @@ for item in thaumcraftHintItems {
 					format.lightPurple(((450 as float) / 100) as string) ~ format.darkPurple(" mB UU"));
 
 	<modularmachinery:itemmodularium>.displayName = "模块化合金锭";
+	
+
+# Turbine Fuel description
+<advgenerators:turbine_controller>.addShiftTooltip(
+	format.darkAqua("菜籽油")         ~  format.gray(" 10 MJ/mB\n") ~
+	format.darkAqua("原油")          ~  format.gray(" 25 MJ/mB\n") ~
+	format.darkAqua("生物质 (Cyclic)")            ~  format.gray(" 30 MJ/mB\n") ~
+	format.darkAqua("生物柴油")          ~  format.gray(" 40 MJ/mB\n") ~
+	format.darkAqua("晶化油")   ~  format.gray(" 40 MJ/mB\n") ~
+	format.darkAqua("沼气")             ~  format.gray(" 50 MJ/mB\n") ~
+	format.darkAqua("乙烯")           ~  format.gray(" 80 MJ/mB\n") ~
+	format.darkAqua("生物燃油")            ~  format.gray(" 90 MJ/mB\n") ~
+	format.darkAqua("火箭燃料 (EiO)")  ~  format.gray(" 95 MJ/mB\n") ~
+	format.darkAqua("精炼油")       ~ format.gray(" 105 MJ/mB\n") ~
+	format.darkAqua("火箭燃料 (AR)")   ~ format.gray(" 110 MJ/mB\n") ~
+	format.darkAqua("充能油")      ~ format.gray(" 120 MJ/mB")
+,format.darkAqua("<<Hold shift to see fuel list>>"));
+
+# Antimatter
+<forge:bucketfilled>.withTag({FluidName: "blockfluidantimatter", Amount: 1000}).addTooltip(format.aqua("使用暴风印记雷击生命源质流体获得"));
+
+# Corium Bucket
+<forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000}).addTooltip(format.green("可通过熔毁裂变反应堆获得"));
